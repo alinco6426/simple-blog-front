@@ -1,8 +1,15 @@
 <script setup>
+import { RouterLink, RouterView } from 'vue-router'
 </script>
 
 <template>
   <div>
-    <h1>hello world</h1>
+    <RouterView></RouterView>
   </div>
 </template>
+
+<style scoped>
+body{
+    background-color: black;
+}
+</style>
